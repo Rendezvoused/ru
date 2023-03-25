@@ -1,0 +1,373 @@
+body { background: rgb(15,8,94);
+background: linear-gradient(256deg, rgba(15,8,94,1) 16%, rgba(4,12,48,1) 50%, rgba(110,121,162,1) 93%);}
+
+.schi4 {
+  display: block;
+  padding: 15px;
+  text-transform: uppercase;
+  font: 400 45px/100% lombok;
+  letter-spacing: 5px;
+  width: 50px;
+  color: #555;
+  float: left;
+  position: absolute;
+  bottom: 90px;
+}
+
+.schi3 h3 {
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  font: 400 17px/100% lombok;
+  border-bottom: 2px solid #ECECEC;
+  width: 50px;
+  margin-bottom: -4px;
+  color: #444;
+  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+}
+
+.schi3 {
+  background: #F7F7F7;font: 12px lombok;
+  padding: 15px;
+  float: right;
+  margin: -12px;
+  height: 229px;
+  border-left: 1px solid #D9D9D9;
+}
+
+.schi2 {
+  padding: 12px;
+  width: 100px;
+  float: right;
+  border: 1px solid #DDD;
+  text-align: justify;
+  color: #484848;
+  background: #FDFDFD;
+  border-radius: 6px;
+}
+
+.scham {
+  position: absolute;
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  font: 400 20px/100% lombok;
+  border-bottom: 2px solid #EEE;
+  width: 50px;
+  top: 80px;
+  color: #444;
+}
+a { text-decoration:none; color:#596faa; transition: all 0.6s ease-in-out; }
+ 
+a:hover { color:#070340; transition:all 0.6s ease-in-out; }
+.schit img {
+  float: left;
+  width: 100px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  padding: 10px;
+  border: 5px solid #FDFDFD;
+  border-top: 5px dotted #362eaa;
+  border-right: 5px dotted #5149c4;
+  border-left: 8px double #090450;
+  border-bottom: 8px double #050046;
+  margin: 20px;
+  display: block;
+}
+
+.schit {
+  background: #FDFDFD;
+  padding: 12px;
+  border: 1px solid #DDD;
+  margin-top: 55px;
+  height: 235px;
+  font: 400 10px/100% lato;
+}
+
+@-webkit-keyframes slit-in-vertical {
+  0% {-webkit-transform: translateZ(-800px) rotateY(90deg); transform: translateZ(-800px) rotateY(90deg); opacity: 0;}
+  54% {-webkit-transform: translateZ(-160px) rotateY(87deg); transform: translateZ(-160px) rotateY(87deg); opacity: 1;}
+  100% {-webkit-transform: translateZ(0) rotateY(0); transform: translateZ(0) rotateY(0);}
+}
+
+@keyframes slit-in-vertical {
+  0% {-webkit-transform: translateZ(-800px) rotateY(90deg); transform: translateZ(-800px) rotateY(90deg); opacity: 0;}
+  54% {-webkit-transform: translateZ(-160px) rotateY(87deg); transform: translateZ(-160px) rotateY(87deg);opacity: 1;}
+  100% {-webkit-transform: translateZ(0) rotateY(0);transform: translateZ(0) rotateY(0);}
+}
+
+.schit {
+  padding: 12px;
+  border: 1px solid #DADADA;
+  margin-top: 55px;
+  height: 235px;
+}
+
+.HEREcontainer {
+  margin: 10px auto; 
+  height: auto;
+  width: auto;
+}
+
+.HEREtabs {
+  margin: 0px auto; 
+  position: relative;
+  width: 393px; 
+  height: 358px;
+  overflow: hidden;
+}
+
+.HEREtab {float: left; }
+
+.HEREtab label {
+  width: 22.9px!important;
+  height: 28px!important;
+  z-index: 3!important;
+  font-size: 32px!important;
+
+}
+
+.HEREtab input[type=radio]:checked ~ label {z-index: 2;}
+.HEREtab input[type=radio] {display: none; }
+
+.HEREcontent {
+  position: absolute;
+  top: -50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: #FAFAFA;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.HEREtab input[type=radio]:checked ~ label ~ .HEREcontent {
+  z-index: 1;
+  -webkit-animation: slit-in-vertical 0.45s ease-out both;
+  animation: slit-in-vertical 0.45s ease-out both;
+}
+
+#sch input[type=checkbox] + label {
+  margin-left: 25px;
+  margin-top: 210px;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+} 
+
+#sch input[type=checkbox]:checked + label {
+  margin-left: -255px;
+  margin-top: 0px;
+} 
+
+#sch label {
+  color: #bbc8f4;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.05), 1px -1px 0 rgba(0, 0, 0, 0.05), -1px 1px 0 rgba(0, 0, 0, 0.05), 1px 1px 0 rgba(0, 0, 0, 0.05);
+  font-size: 55px;
+  cursor: crosshair;
+  transition-delay: 1.3s;
+  position: absolute;
+  z-index: 2;
+  left: 65px;
+}
+
+.schcont {
+  width: 407px; 
+  position: absolute; 
+  padding: 10px; 
+  background: #FCFCFC; 
+  border: 1px solid #ccc; 
+  text-align: justify; 
+  height: 378px; 
+  overflow: auto; 
+  color: #555; 
+  font-family: arial; 
+  font-size: 12px; 
+  line-height: 14px; 
+  left: 25px; 
+  top: 450px; 
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+ 
+#sch input[type=checkbox]:checked ~ .schinput .schcont {top: 25px;}  
+ 
+.schinput {
+  width: 479px; 
+  height: 450px; 
+  overflow: hidden; 
+  position: absolute; 
+  top: 0px; 
+  left: 0px;
+ }
+ 
+#sch input[type=checkbox] {
+  display: none;
+}
+ 
+#sch:hover .sch4 {
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#sch:hover img {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+#sch:hover h1 {
+  -webkit-animation: tracking-out-contract 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s both;
+  animation: tracking-out-contract 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s both;
+}
+
+#sch:hover .sch3 {
+  -webkit-animation: tracking-out-contract 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: tracking-out-contract 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes tracking-out-contract {
+  0% {opacity: 1;}
+  50% {opacity: 1;}
+  100% {letter-spacing: -0.5em; opacity: 0;}
+}
+@keyframes tracking-out-contract {
+  0% {opacity: 1;}
+  50% {opacity: 1;}
+  100% {letter-spacing: -0.5em; opacity: 0;}
+}
+
+.sch5 {
+  margin: 175px auto;
+  width: 480px;
+  padding: 25px;
+  background: #F5F5F5;
+  border: 1px solid #D5D5D5;
+  border-radius: 10px;
+}
+
+.sch3 b {border-top: 15px dotted #FDFDFD;}
+
+.sch3 {
+  color: #FDFDFD;
+  transform: rotate(-45deg);
+  font: 900 45px/100% lombok;
+  top: 105px;
+  letter-spacing: -2px;
+  left: 62px;
+  text-transform: uppercase;
+  color: #FDFDFD;
+  position: absolute;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.05), 1px -1px 0 rgba(0, 0, 0, 0.05), -1px 1px 0 rgba(0, 0, 0, 0.05), 1px 1px 0 rgba(0, 0, 0, 0.05);
+}
+
+#sch h1 {
+  letter-spacing: -2px;
+  transform: rotate(-45deg);
+  font: 900 125px/100% lombok;
+  text-transform: uppercase;
+  color: #FDFDFD;
+  position: absolute;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.05), 1px -1px 0 rgba(0, 0, 0, 0.05), -1px 1px 0 rgba(0, 0, 0, 0.05), 1px 1px 0 rgba(0, 0, 0, 0.05);
+}
+
+.sch2 {
+  font-size: 250px;
+  color: rgba(0, 0, 0, 0.1);
+  right: 260px;
+  top: 230px;
+  position: absolute;
+}
+.sch02 {
+  font-size: 250px;
+  color: rgba(0, 0, 0, 0.1);
+  right: -40px;
+  top: -50px;
+  position: absolute;
+}
+@-webkit-keyframes heartbeat {
+  from {-webkit-transform: scale(1); transform: scale(1); -webkit-transform-origin: center center; transform-origin: center center; -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out;}
+  10% {-webkit-transform: scale(0.91); transform: scale(0.91); -webkit-animation-timing-function: ease-in;animation-timing-function: ease-in;}
+  17% {
+    -webkit-transform: scale(0.98); transform: scale(0.98); -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out;}
+  33% {-webkit-transform: scale(0.87); transform: scale(0.87); -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in;}
+  45% { -webkit-transform: scale(1); transform: scale(1); -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out;}
+}
+
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1); transform: scale(1); -webkit-transform-origin: center center; transform-origin: center center; -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out;}
+  10% {-webkit-transform: scale(0.91); transform: scale(0.91); -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in;}
+  17% { -webkit-transform: scale(0.98); transform: scale(0.98); -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out;}
+  33% {-webkit-transform: scale(0.87); transform: scale(0.87); -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in;}
+  45% { -webkit-transform: scale(1); transform: scale(1); -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out;}
+}
+
+.sch10 img {
+  width: 100px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  top: 150px;
+  left: 170px;
+  position: absolute;
+  padding: 10px;
+  border: 5px solid #FDFDFD;
+   border-top: 5px dotted #362eaa;
+  border-right: 5px dotted #5149c4;
+  border-left: 8px double #090450;
+  border-bottom: 8px double #050046;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  transition-delay: 0.9s;
+  -webkit-transition-delay: 0.9s;
+  -moz-transition-delay: 0.9s;
+  -ms-transition-delay: 0.9s;
+  -o-transition-delay: 0.9s;
+}
+
+.sch1 {
+  background: rgba(0, 0, 0, 0.32);
+  width: 170px;
+  height: 170px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  left: 150px;
+  top:130px;
+  position: absolute;
+  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+  nimation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+#sch h1 {
+  font-family: 'lombok';
+  text-transform: uppercase;
+}
+
+#sch {
+background: rgb(9,4,80);
+background: linear-gradient(211deg, rgba(9,4,80,1) 10%, rgba(110,121,162,1) 93%);
+  height: 420px;
+  padding: 15px;
+  border: 1px solid #DDD;
+  position: relative;
+  overflow: hidden;
+} 
+
+@font-face {
+  font-family: 'lombok';
+  src: url('https://files.jcink.net/uploads/spica02/Lombok.otf');
+}
